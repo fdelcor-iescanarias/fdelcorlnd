@@ -1,0 +1,99 @@
+/* Normalización de estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales para todo el sitio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #4d4d4d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #eb4c34;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+header {
+    background-color: #eb4c34;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Nav */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #eb4c34;
+    border-radius: 5px;
+}
+
+/* Main */
+main section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+main h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+`` 
