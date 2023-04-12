@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Miembros</title>
+  <link rel="stylesheet" href="login-page.css">
+  <script defer src="login-page.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Portal de Miembros</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Usuario no encontrado.<span id="error-msg-second-line">Contraseña incorrecta.</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Usuario">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Contraseña">
+      <input type="submit" value="Iniciar sesión" id="login-form-submit">
+    </form>
+  
+  </main>
+</body>
+
+</html>

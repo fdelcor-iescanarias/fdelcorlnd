@@ -81,6 +81,11 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.idlogin {
+  background-color: #00aeff;
+  border-radius: 5px;
+}
+
 /* Main */
 main section {
     max-width: 800px;
